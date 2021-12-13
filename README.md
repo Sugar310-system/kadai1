@@ -42,23 +42,26 @@ sudo chmod 666 /dev/leddrv
 ```
 3LEDを点灯させる
 -全消灯
+```
 echo 0 > /dev/leddrv
-
+```
 -全点灯
+```
 echo 1 > /dev/leddrv
-
+```
 -蛍
+```
 echo 2 > /dev/leddrv
-
-
+```
 -回転灯
+```
 echo 3 > /dev/leddrv
-
+```
 4プログラムを終了する
 ```
 sudo rmmod leddrv
 sudo rm /dev/leddrv
-
-
+```
+動作している様子()
 ## ライセンス
 [GNU GENERAL PUBLIC LICENSE 3.0]https://github.com/Sugar310-system/kadai1/blob/main/COPYING
