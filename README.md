@@ -27,20 +27,20 @@
 
 
 ## コマンド
-1リポジトリをRaspberry Pi 4にクローンする(gitのインストール前提)
+# 1リポジトリをRaspberry Pi 4にクローンする(gitのインストール前提)
 ```
 SSHの場合 
 git clone git@github.com:Sugar310-system/kadai1.git
 HTTPSの場合　
 git clone https://github.com/Sugar310-system/kadai1.git
 ```
-2クローンしたディレクトリ内で実行可能状態にする
+# 2クローンしたディレクトリ内で実行可能状態にする
 ```
 make
 sudo insmod leddrv.ko
 sudo chmod 666 /dev/leddrv
 ```
-3LEDを点灯させる
+# 3LEDを点灯させる
 -全消灯
 ```
 echo 0 > /dev/leddrv
@@ -57,7 +57,7 @@ echo 2 > /dev/leddrv
 ```
 echo 3 > /dev/leddrv
 ```
-4プログラムを終了する
+# 4プログラムを終了する
 ```
 sudo rmmod leddrv
 sudo rm /dev/leddrv
