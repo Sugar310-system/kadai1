@@ -23,6 +23,7 @@
 ## 回路図
 回路図
 
+(https://user-images.githubusercontent.com/76143173/145818845-842cc60b-b531-4b78-9ae4-218f87f7617b.png)
 
 
 
