@@ -61,11 +61,13 @@ echo 2 > /dev/leddrv
 ```
 echo 3 > /dev/leddrv
 ```
+動作している様子(https://youtu.be/1ZfPrKw-m3w)
+
 # 4プログラムを終了する
 ```
 sudo rmmod leddrv
 sudo rm /dev/leddrv
 ```
-動作している様子(https://youtu.be/1ZfPrKw-m3w)
+
 ## ライセンス
 [GNU GENERAL PUBLIC LICENSE 3.0]https://github.com/Sugar310-system/kadai1/blob/main/COPYING
